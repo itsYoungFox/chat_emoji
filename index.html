@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Emoji test</title>
+    <link rel="stylesheet" href="lib/css/emojionearea.min.css">
+    <script src="https://code.jquery.com/jquery-3.5.0.min.js" integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="lib/js/emojionearea.min.js"></script>
+  </head>
+  <body>
+    <textarea id="txtArea" style="display: none;"></textarea>
+    <script type="text/javascript">
+      $(document).ready(function() {
+        $('#txtArea').emojioneArea({
+          pickerPosition: "bottom"
+        });
+      });
+    </script>
+  </body>
+</html>
